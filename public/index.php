@@ -9,8 +9,10 @@ $available = [
         'cli' => 'cli-hal-app'
     ],
     'Accept-Language' => [
+        'ja-JP' => 'ja',
         'ja' => 'ja',
-        'en-US' => 'en'
+        'en-US' => 'en',
+        'en' => 'en'
     ]
 ];
 $accept = new \BEAR\Accept\Accept($available);
